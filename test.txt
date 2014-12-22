@@ -4,6 +4,10 @@ git init
 
 git add .
 
+git config --global user.email "rcdrones@163.com"
+
+git config --global user.name "rcdrones"
+
 git commit -m "first commit"
 
 git remote add origin https://github.com/rcdrones/gittest.git
@@ -18,7 +22,5 @@ git push -u origin master
 git add .
 
 git commit -m "first commit"
-
-git remote add origin https://github.com/rcdrones/gittest.git
 
 git push -u origin master  
